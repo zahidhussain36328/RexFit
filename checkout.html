@@ -1,0 +1,195 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Rex Fit | checkout</title>
+    <link rel="stylesheet" href="./assets/css/style.css">
+    <link rel="stylesheet" href="./assets/css/responsive.css">
+    <link rel="stylesheet" href="./assets/css/owl.carousel.min.css">
+    <link rel="stylesheet" href="./assets/css/owl.theme.default.min.css">
+    <link rel="shortcut icon" href="./assets/images/favicon.jpg" type="image/x-icon">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/limonte-sweetalert2/7.2.0/sweetalert2.min.css">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/limonte-sweetalert2/7.2.0/sweetalert2.all.min.js"></script>
+</head>
+
+<body>
+    <div class="nav-container">
+        <div class="nav-toggle"></div>
+        <nav class="nav-items">
+            <a class="nav-item" href="./index.html">Home</a>
+            <a class="nav-item" href="./about.html">About Us</a>
+            <a class="nav-item" href="./contact-us.html">Contact Us</a>
+        </nav>
+    </div>
+    </div>
+    <img src="./assets/images/logo.png" class="img-fluid main-logo" alt="Rex Fit">
+    <div class="main-wrapper">
+   
+        <div class="hero-section contact">
+            <div class="styled__PageHeaderContent-sc-gxvobn-1 hGsNoo">
+                <h1 class="Headline__Headline1-sc-rg4g2a-0 btGlEj"
+                    style="opacity: 1; transform: translateY(0%) translateZ(0px);">Booking Cart</h1>
+            </div>
+        </div>
+        
+    </div>
+    <!-- Contact US Section -->
+    <section class="section_contactus my-lg-5 my-4 mb-5">
+        <div class="container">
+            <div class="sub_heading_box d-flex align-center text-center content-center sub_heading_box--contact mb-3">
+                <h2 class="h2-heading mb-5 text-primary mx-2 my-0">Booking Membership Cart</h2>
+            </div>
+            <table class="table table-bordered"> 
+              
+                <tbody>
+                    <tr>
+                        <th>Membership Package</th>
+                        <td>Premium</td>
+                    </tr>
+                    <tr>
+                        <th>Price</th>
+                        <td>$ 9000 USD</td>
+                    </tr>
+                </tbody>
+            </table>
+
+            <div class="card contact-card shadow border-0 ">
+
+                <div class="row d-flex g-0 p-0 m-0">
+
+                    <div class="col-md-12 w-100">
+                        <div class="p-3">
+                            <form role="form" id="storeform" action="#" method="post" data-cc-on-file="false"
+                                class="require-validation payment_form" data-stripe-publishable-key="">
+                                <div class="checkout_div row d-flex gap-3">
+                                    <div class="col-md-6">
+                                        <div class="form-group2 ">
+                                            <label class="col-form-label" for="owner">User ID</label>
+                                            <input type="text" class="form-control contactBox_form_input disabled me-1"
+                                                readonly id="ID" name="user" placeholder="*User ID">
+                                        </div>
+                                    </div>
+                                    <div class="col-md-6">
+                                        <div class="form-group2 owner">
+                                            <label class="col-form-label" for="owner">Cardholder Name</label>
+                                            <input type="text" class="form-control contactBox_form_input  " id="owner"
+                                                name="owner_name" placeholder="*Cardholder Name">
+                                            <small class="error_msg text-danger" style="display: none">Please
+                                                Enter
+                                                Cardholder Name</small>
+
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="d-flex gap-3">
+                                    <div class="col-md-6">
+                                        <div class="form-group2" id="card-number-field">
+                                            <label class="col-form-label" for="cardNumber">Card Number</label>
+                                            <input type="text"
+                                                class="form-control contactBox_form_input me-1 card-number" min="16"
+                                                id="cardNumber" name="card_number" placeholder="*Card Number">
+                                        </div>
+                                    </div>
+
+                                    <div class="col-md-6">
+                                        <div class="form-group2" id="card-number-field">
+                                            <label class="col-form-label" for="card-zip">Zip Code</label>
+                                            <input type="text" class="form-control contactBox_form_input me-1 card-zip"
+                                                id="card-zip" name="zip_code" placeholder="*Zip Code">
+
+
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="d-flex gap-3">
+                                    <div class="col-md-6">
+                                        <div class="form-group2 CVV">
+                                            <label class="col-form-label" for="cvv">CVV</label>
+                                            <input type="text" class="form-control contactBox_form_input me-1 card-cvc"
+                                                id="cvv" name="cvv" placeholder="*CVV/CVC">
+                                        </div>
+                                    </div>
+                                    <div class="col-md-6">
+                                        <div class="form-group2" id="mm-yy">
+                                            <label class="col-form-label" for="mm-yy">Expiration Date</label>
+                                            <input type="text" name="expiration_date"
+                                                class="form-control contactBox_form_input me-1  expiration_date"
+                                                id="expiration_date" placeholder="*Expiration Date (MM/YYYY)">
+
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-md-12">
+                                    <button type="button" class="mbtn mbtn--contact w-100 text-white btn-primary" id="sendQuery">Pay
+                                        Now</button>
+                                </div>
+                            </form>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- footer -->
+    <footer class="bg-light text-dark mt-5">
+        <div class="ContentContainer mx-auto mb-0">
+            <div class="row d-flex">
+                <div class="col-md-4">
+                    <img src="./assets/images/logo-black.png" class="img-fluid f-logo" alt="Rex Fit">
+
+                </div>
+                <div class="col-md-4">
+                    <h4 class="mb-5">Contact Us</h4>
+                    <a href="mailto:info@rexfit.com" class="text-dark ">info@rexfit.com </a> <br> <br>
+                    <a href="tel:+32457687890" class="text-dark ">+32457687890</a> <br><br>
+                    <p>Gerrit van der Veenstraat 38, Amsterdam</p>
+                </div>
+                <div class="col-md-4 col-6">
+                    <h4 class=" mb-5">Useful Links</h4>
+                    <a href="./index.html" class="text-dark ">Home </a> <br> <br>
+                    <a href="./about.html" class="text-dark ">About </a> <br> <br>
+                    <a href="./contact-us.html" class="text-dark  active">Contact </a>
+                </div>
+
+            </div>
+        </div>
+    </footer>
+
+    <script src="./assets/js/jquery.js"></script>
+    <script src="./assets/js/custom.js"></script>
+    <script src="./assets/js/script.js"></script>
+    <script src="./assets/js/jquery.payform.min.js"></script>
+    <script src="./assets/js/owl.carousel.min.js"></script>
+    <script>
+        function generateRandomUserID() {
+            let userID = '';
+            const characters = 'ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz0123456789';
+            const charactersLength = characters.length;
+            for (let i = 0; i < 8; i++) {
+                userID += characters.charAt(Math.floor(Math.random() * charactersLength));
+            }
+            return userID;
+        }
+
+        $('#ID').val(generateRandomUserID());
+
+        $(document).on('click', '#sendQuery', function(e) {
+    e.preventDefault(); // Prevent the default form submission
+
+    swal({
+        title: 'Congratulations!',
+        text: 'you have become a member of RexFit.',
+        icon: 'success'
+    }).then((willReset) => {
+        if (willReset) {
+            // Reset the form
+            $('#storeform')[0].reset();
+        }
+    });
+});
+    </script>
+</body>
+
+</html>
