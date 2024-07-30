@@ -1,0 +1,173 @@
+@media screen and (max-width:992px) {
+    .main-logo{
+        width: 200px;
+    }
+    .mt-5 {
+        margin-top: 2rem;
+    }
+    .HighlightContainer-sc { 
+        margin: 0px 10px 30px; 
+    }
+    .Heading-sc {
+        line-height: 12px; 
+        font-size: 14px; 
+        letter-spacing: 1px;  
+    }
+    .ticket-block{
+        padding: 15px;
+    }
+    .first-timer-wrapper { 
+        margin-right: 0; 
+    }
+    .inner-ftw {
+        padding: 88px 0px 0px 30px; 
+        margin-top: 5rem;
+    }
+    .owl-theme .owl-nav { 
+        left: 205px; 
+    }
+    .btGlEj { 
+        font-size: 32px; 
+    }
+    .hero-sec-content { 
+        top: 25%; 
+    }
+    .prize-block { 
+        font-size: 28px; 
+    }
+    .slide {
+        height: auto; 
+        margin-bottom: 2rem;
+    }
+    footer.mt-5{
+    
+            margin-top: 5rem;
+    }
+}
+@media screen and (max-width:767px) {
+    .btGlEj {
+        font-size: 18px;
+        line-height: 1;
+        letter-spacing: 1px;
+    }
+    .hero-sec-content {
+        top: 100px;
+    }
+
+    .Heading-ftw {
+        line-height: 34px; 
+        font-size: 34px; 
+    }
+    .main-logo{
+        width: 120px;
+    }
+    .mt-5 {
+        margin-top: 2rem;
+    }
+    .HighlightContainer-sc { 
+        margin: 0px 10px 30px; 
+    }
+    .Heading-sc {
+        line-height: 12px; 
+        font-size: 14px; 
+        letter-spacing: 1px;  
+    }
+    .ticket-block{
+        padding: 15px;
+    }
+    .ticket-inner { 
+        display: flex;
+        flex-direction: column;
+    }
+    footer .d-flex{
+        flex-direction: column;
+        
+    }
+    .col-md-4 {
+        flex: 0 0 auto;
+        width: 50%;
+        margin-top: 1rem;
+    }
+    .bg-light { 
+        padding: 15px 0;
+    }
+    .contact-card .card_row{
+        flex-direction: column;
+
+    }
+    .contact-card .contact_form_bg{ 
+        width: 100%; 
+    }
+    .form-col{
+        width: 100%;
+    }
+    .mobile_h{
+        font-size: 18px;
+        letter-spacing: 2px;
+        line-height: 1.6;
+    }
+    .h2-heading.mb-5{
+        margin-bottom: 0.5rem;
+    } 
+    .cQjncB {
+        line-height: 1; 
+        font-size: 16px; 
+        margin: 0px 0px 10px; 
+        letter-spacing: 3px; 
+    }
+}
+@media only screen and (max-width: 760px),
+  (min-device-width: 768px) and (max-device-width: 1024px) {
+  table {
+    width: 100%;
+  }
+
+  /* Force table to not be like tables anymore */
+  table,
+  thead,
+  tbody,
+  th,
+  td,
+  tr {
+    display: block;
+  }
+
+  /* Hide table headers (but not display: none;, for accessibility) */
+  thead tr {
+    position: absolute;
+    top: -9999px;
+    left: -9999px;
+  }
+
+  tr {
+    border: 1px solid #ccc;
+    margin-bottom: 40px;
+  }
+
+  td {
+    /* Behave  like a "row" */
+    border: none;
+    border-bottom: 1px solid #eee;
+    position: relative; 
+  }
+
+  td:before {
+    /* Now like a table header */
+    position: absolute;
+    /* Top/left values mimic padding */
+    top: 6px;
+    left: 6px;
+    width: 45%;
+    padding-right: 10px;
+    white-space: nowrap;
+    /* Label the data */
+    content: attr(data-column);
+
+    font-weight: bold;
+    font-family: ui-sans-serif, system-ui, sans-serif, "Apple Color Emoji",
+      "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+  }
+
+  td:first-child:before {
+  }
+}
